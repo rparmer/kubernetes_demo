@@ -16,7 +16,6 @@ spec:
       containers:
       - name: echoserver
         image: echoserver:v1
-        imagePullPolicy: Never
         ports:
         - containerPort: 8080
 ---
